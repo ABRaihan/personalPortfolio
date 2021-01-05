@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Global Style */
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.col{
+    width: 46%;
+    float: left;
+    overflow: hidden;
+    margin: 1%;
+    padding: 1%;
+}
+p, a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+h2{
+    font-family: 'Fugaz One', cursive;
+    color: #14213d;
+    font-size: 30px;
+}
+img{max-width: 100%;}
+.row{overflow: hidden;}
+.textContentMargin{
+    margin-top: 150px;
+}
+/* Header Section */
+
+/* Navigation Bar */
+.navbar{
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    padding: 0;
+}
+.navbarItem{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.navbarLink{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+/* Heading Content */
+.headingText h1{
+    color: #14213d;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    text-transform: uppercase;
+}
+.textHighlight{
+    color: #4361ee;
+}
+.hireMeBtn,.btn{
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(90deg,#3a0ca3
+    ,#4361ee);
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+/* About Section */
+#about img{
+    margin-left: -180px;
+}
+/* Portfolio Section */
+#portfolio{
+    background-color: #e5e5e5;
+}
+.singlePortfolio{
+    width: 29.3%;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+}
+.singlePortfolio h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+/* Client Feedback Section */
+.clientsHeading{
+    text-align: center;
+}
+.client{
+    width: 60%;
+    margin: 50px auto 0px;
+    overflow: hidden;
+}
+
