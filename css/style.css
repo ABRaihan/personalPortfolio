@@ -26,9 +26,8 @@ h2{
     color: #14213d;
     font-size: 30px;
 }
-img{max-width: 100%;}
+img{max-width: 80%;}
 .row{overflow: hidden;}
-.textContentMargin{margin-top: 150px;}
 /* Header Section */
 
 /* Navigation Bar */
@@ -61,17 +60,19 @@ img{max-width: 100%;}
     border-radius: 5px;
     display: inline-block;
 }
-/* About Section */
-#about img{margin-left: -180px;margin-top: -25px;}
+
 /* Portfolio Section */
 #portfolio{background-color: #e5e5e5;}
 .singlePortfolio{
-    width: 29.3%;
+    width: 25.3%;
     float: left;
     background-color: #fff;
     border-radius: 10px;
-    margin: 1%;
-    padding: 1%;
+    margin: 2%;
+    padding: 2%;
+}
+.singlePortfolio img{
+    max-width: 100%;
 }
 .singlePortfolio h3{
     font-family: 'Josefin Sans', sans-serif;
@@ -83,6 +84,9 @@ img{max-width: 100%;}
     width: 60%;
     margin: 50px auto 0px;
     overflow: hidden;
+}
+.client p{
+    margin-top: 60px;
 }
 /* Work Inquiry Section */
 .workInquiry{
