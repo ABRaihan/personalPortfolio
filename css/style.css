@@ -5,16 +5,14 @@ body{
 }
 /* Global Style */
 .container{
-    width: 1600px;
+    width: 80%;
     margin: 0 auto;
     padding: 20px 30px;
 }
 .col{
-    width: 46%;
+    width: 45%;
     float: left;
     overflow: hidden;
-    margin: 1%;
-    padding: 1%;
 }
 p, a{
     font-family: 'Josefin Sans', sans-serif;
@@ -27,7 +25,9 @@ h2{
     font-size: 30px;
 }
 img{max-width: 80%;}
-.row{overflow: hidden;}
+.row{overflow: hidden; padding: 40px 0;}
+.leftColMargin{margin: 0 1.7% 0 3.3%;}
+.rightColMargin{margin: 0 3.3% 0 1.7%;}
 /* Header Section */
 
 /* Navigation Bar */
@@ -44,7 +44,7 @@ img{max-width: 80%;}
     font-size: 22px;
 }
 /* Heading Content */
-.headingText h1{
+.headingContent h1{
     color: #14213d;
     font-size: 50px;
     font-family: 'Fugaz One', cursive;
@@ -60,21 +60,20 @@ img{max-width: 80%;}
     border-radius: 5px;
     display: inline-block;
 }
-
 /* Portfolio Section */
 #portfolio{background-color: #e5e5e5;}
 .singlePortfolio{
-    width: 25.3%;
+    width: 25%;
     float: left;
     background-color: #fff;
     border-radius: 10px;
-    margin: 2%;
-    padding: 2%;
     box-shadow: 10px 10px 20px gray;
+    padding: 1.5%;
 }
-.singlePortfolio img{
-    max-width: 100%;
-}
+.gym{margin: 0 .65% 0 6.7%;}
+.agency{margin: 0 .65%;}
+.music{margin: 0 6.7% 0 .65%;}
+.singlePortfolio img{max-width: 100%;}
 .singlePortfolio h3{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
@@ -86,9 +85,7 @@ img{max-width: 80%;}
     margin: 50px auto 0px;
     overflow: hidden;
 }
-.client p{
-    margin-top: 60px;
-}
+.client p{margin-top: 60px;}
 /* Work Inquiry Section */
 .workInquiry{
     width: 50%;
@@ -110,9 +107,7 @@ img{max-width: 80%;}
     background-image: linear-gradient(90deg,#fe5f55,#ff5d8f);
 }
 /* Footer Section */
-footer{
-    text-align: center;
-}
+footer{text-align: center; padding: 20px 0;}
 footer h3{
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
@@ -122,7 +117,4 @@ footer b{
     margin-bottom: 20px;
     display: inline-block;
 }
-.socialIcons img{
-    width: 40px;
-    margin-right: 10px;
-}
+.socialIcons img{width: 40px;margin-right: 10px;}
