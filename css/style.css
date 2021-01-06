@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 /* Global Style */
 .container{
@@ -27,9 +28,7 @@ h2{
 }
 img{max-width: 100%;}
 .row{overflow: hidden;}
-.textContentMargin{
-    margin-top: 150px;
-}
+.textContentMargin{margin-top: 150px;}
 /* Header Section */
 
 /* Navigation Bar */
@@ -39,10 +38,7 @@ img{max-width: 100%;}
     text-align: right;
     padding: 0;
 }
-.navbarItem{
-    display: inline-block;
-    margin: 10px 20px;
-}
+.navbarItem{display: inline-block;margin: 10px 20px;}
 .navbarLink{
     color: black;
     font-family: 'Ubuntu', sans-serif;
@@ -55,9 +51,7 @@ img{max-width: 100%;}
     font-family: 'Fugaz One', cursive;
     text-transform: uppercase;
 }
-.textHighlight{
-    color: #4361ee;
-}
+.textHighlight{color: #4361ee;}
 .hireMeBtn,.btn{
     color: white;
     font-weight: bold;
@@ -68,13 +62,9 @@ img{max-width: 100%;}
     display: inline-block;
 }
 /* About Section */
-#about img{
-    margin-left: -180px;
-}
+#about img{margin-left: -180px;margin-top: -25px;}
 /* Portfolio Section */
-#portfolio{
-    background-color: #e5e5e5;
-}
+#portfolio{background-color: #e5e5e5;}
 .singlePortfolio{
     width: 29.3%;
     float: left;
@@ -88,12 +78,46 @@ img{max-width: 100%;}
     font-size: 25px;
 }
 /* Client Feedback Section */
-.clientsHeading{
-    text-align: center;
-}
+.clientsHeading{text-align: center;}
 .client{
     width: 60%;
     margin: 50px auto 0px;
     overflow: hidden;
 }
-
+/* Work Inquiry Section */
+.workInquiry{
+    width: 50%;
+    margin: 0 auto;
+    background: url(../images/Group_33094_1.png) no-repeat center;
+    background-size: contain;
+    height: 200px;
+}
+.workInquiry h2{
+    float: left;
+    margin-top: 75px;
+    color: white;
+    margin-left: 40px;
+}
+.workInquiry .btn{
+    float: right;
+    margin-top: 75px;
+    margin-right: 40px;
+    background-image: linear-gradient(90deg,#fe5f55,#ff5d8f);
+}
+/* Footer Section */
+footer{
+    text-align: center;
+}
+footer h3{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer b{
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.socialIcons img{
+    width: 40px;
+    margin-right: 10px;
+}
